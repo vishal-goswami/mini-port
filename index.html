@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="fonts/materialdesignicons.min.css">
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<div id="wrap">
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html">web devoper<strong>_</strong> </a>
+				</div>
+				<div class="menu-links">
+					<i class="mdi mdi-close close"></i>
+					<ul class="menu">
+						<li><a href="#">home</a></li>
+						<li><a href="#">projects</a></li>
+						<li><a href="#">about me</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</div>
+				<i class="mdi mdi-menu menu-open"></i>
+			</div>
+		</div>
+		<div id="homebanner">
+			<div class="container">
+				<div class="caption">
+					<h1>Lorem ipsum dolor</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus natus dolore quam totam non.</p>
+					<a href="#" class="download">View cv <i class="mdi mdi-arrow-right"></i></a>
+				</div>
+			</div>
+			<ul class="social">
+				<li><a href="#"><i class="mdi mdi-facebook"></i></a></li>
+				<li><a href="#"><i class="mdi mdi-instagram"></i></a></li>
+				<li><a href="#"><i class="mdi mdi-twitter"></i></a></li>
+				<li><a href="#"><i class="mdi mdi-youtube"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<script>
+		const menuOpen = document.querySelector(".menu-open");
+		const menuLinks = document.querySelector(".menu-links");
+		const close = document.querySelector(".close");
+		menuOpen.addEventListener('click', () => {
+			if (menuLinks.classList.contains("sideBar")) {
+				menuLinks.classList.remove("sideBar");
+			}
+			else {
+				menuLinks.classList.add("sideBar");
+			}
+		});
+		close.addEventListener('click', () => {
+			menuLinks.classList.remove("sideBar");
+		});
+	</script>
+</body>
+
+</html>
