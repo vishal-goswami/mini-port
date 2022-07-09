@@ -64,8 +64,12 @@ ol {
 	color: #fff;
 	font-size: 40px;
 	cursor: pointer;
+<<<<<<< HEAD
+	display: none;
+=======
 	display:none;
 
+>>>>>>> 66e125fd7e4a463f200e9a38d00ebd46ba28f1cc
 }
 .header .menu-links {
 	float: right;
@@ -109,6 +113,9 @@ ol {
 	margin: 0;
 }
 /* Close */
+.close {
+	display: none;
+}
 .sideBar .close {
 	position: absolute;
 	top: 0;
@@ -123,7 +130,6 @@ ol {
 	display:none;
 }
 /* mobile menu */
-/*  */
 #homebanner {
 	position: relative;
 	float: left;
@@ -240,6 +246,12 @@ ol {
 	.header .menu-links ul.menu li {
 		display: block;
 	}
+	.close {
+		display: block;
+	}
+	.header .menu-open {
+		display: block;
+	}
 	.header .menu-links {
 		display: none;
 	}
@@ -278,6 +290,12 @@ ol {
 	}
 	#homebanner .caption p {
 		font-size: 18px;
+	}
+	.header .menu-open {
+		display: block;
+	}
+	.close {
+		display: block;
 	}
 	.header .sideBar {
 		width: 100%;
