@@ -64,6 +64,7 @@ ol {
 	color: #fff;
 	font-size: 40px;
 	cursor: pointer;
+	display:none;
 
 }
 .header .menu-links {
@@ -119,6 +120,7 @@ ol {
 	height: 35px;
 	line-height: 33px;
 	cursor: pointer;
+	display:none;
 }
 /* mobile menu */
 /*  */
