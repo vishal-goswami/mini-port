@@ -64,12 +64,7 @@ ol {
 	color: #fff;
 	font-size: 40px;
 	cursor: pointer;
-<<<<<<< HEAD
 	display: none;
-=======
-	display:none;
-
->>>>>>> 66e125fd7e4a463f200e9a38d00ebd46ba28f1cc
 }
 .header .menu-links {
 	float: right;
